@@ -5,6 +5,10 @@ PROJECT( CannyPF )
 # CMake settings
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8.3)
 
+SET(OpenCV_DIR "D:/opencv_build/build64/install/x64/vc14/lib")
+find_package(OpenCV 4 REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+
 # this command finds OpenCV libraries and sets all required variables
 FIND_PACKAGE(OpenCV REQUIRED)
 
