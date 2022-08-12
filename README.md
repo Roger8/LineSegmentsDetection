@@ -75,12 +75,13 @@
 - 论文地址：https://www.sciencedirect.com/science/article/abs/pii/S1047320312000831
 - 代码地址：https://github.com/mtamburrano/LBD_Descriptor
 
-## [CannyLines](http://cvrs.whu.edu.cn/projects/cannyLines/)
+## [CannyLines](https://cvrs.whu.edu.cn/cannylines/)
 
 - 论文标题："CannyLines: A Parameter-Free Line Segment Detector"
-- 项目主页：http://cvrs.whu.edu.cn/projects/cannyLines/
-- 论文地址：http://cvrs.whu.edu.cn/projects/cannyLines/papers/CannyLines-ICIP2015.pdf
-- 代码地址：http://cvrs.whu.edu.cn/projects/cannyLines/codes/CannyLines-v3.rar
+- 项目主页：https://cvrs.whu.edu.cn/cannylines/
+- 论文地址：https://cvrs.whu.edu.cn/media/cannyLines/papers/CannyLines-ICIP2015.pdf
+- 代码地址：https://cvrs.whu.edu.cn/media/cannyLines/codes/CannyLines-v3.rar
+            https://cvrs.whu.edu.cn/media/cannyLines/codes/CannyPF.rar
 
 本文提出了一种鲁棒的线段检测算法来有效地检测来自输入图像的线段。首先，文章提出了一种无参数的Canny算子，称为Canny（PANYPF），通过自适应地设置传统Canny算子的低阈值和高阈值来鲁棒地从输入图像中提取边缘。然后，提出了有效的像素连接和分割技术，直接从边缘图中收集共线点群，用于基于最小二乘拟合方法拟合初始线段。第三，通过有效的扩展和合并，产生更长、更完整的线段。最后，利用亥姆霍兹原理（Helmholtz Principle）对所有的检测线段检测，主要考虑梯度方向和幅度信息。该算法能够在人工场景中能够获得比LSD以及EDline精度更高以及平均长度更高的线段。
 
@@ -89,3 +90,7 @@
 - 论文标题："MCMLSD: A Dynamic Programming Approach to Line Segment Detection"
 - 论文地址：http://openaccess.thecvf.com/content_cvpr_2017/papers/Almazan_MCMLSD_A_Dynamic_CVPR_2017_paper.pdf
 - 代码地址：http://www.elderlab.yorku.ca/?smd_process_download=1&download_id=8423
+
+
+更多参考：
+https://blog.csdn.net/WZZ18191171661/article/details/101116949
